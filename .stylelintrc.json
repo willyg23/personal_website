@@ -1,0 +1,14 @@
+{
+    "extends": "stylelint-config-standard",
+    "ignoreFiles": ["**/*.js", "**/*.jsx"],
+    "plugins": ["stylelint-plugin-name"],
+    "rules": {
+      "rule-empty-line-before": ["always-multi-line", {
+        "except": ["first-nested"],
+        "ignore": ["after-comment", "inside-block"]
+      }],
+      "plugin-name/lightness-notation": "your-preferred-setting",
+      "lightness-notation": null
+    }
+  }
+  
